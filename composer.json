@@ -1,0 +1,36 @@
+{
+    "name": "meniloss/primo-texto",
+    "type": "symfony-bundle",
+    "description": "Meniloss PrimoTextoBundle",
+    "keywords": ["Sms communication management"],
+    "homepage": "https://www.primotexto.com/",
+    "authors": [
+        {
+            "name": "Primo Texto",
+            "email": "api@primotexto.com"
+        },
+        {
+            "name": "Olivier Rosière",
+            "email": "olivier.r@shbyjm.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Meniloss\\PrimoTextoBundle\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Meniloss\\PrimoTextoBundle\\Tests\\": "/Tests/"
+        }
+    },
+    "support": {
+        "docs": "https://github.com/meniloss/PrimoTexto/readme.html"
+    }
+}
